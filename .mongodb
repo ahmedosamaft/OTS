@@ -1,0 +1,31 @@
+use("OTS")
+db.productmodels.aggregate(
+    [
+
+        // {$project : { _id: 1, trademark:1}},
+        // {$match : {name : 'T-shirt'}},
+        // {$addFields: {
+        //   price:{$concat :[{$toString : '$price'},"EGP"]}
+        // }}
+        //  { $limit : 5 }
+        //   { $skip : 5 }
+        // { $sort : { _id : -1 } }
+        //  { $match: { _id: 17 } },
+        //  {$unset :["category", "trademark"] }
+    //    {  $group: {
+    //    _id: {category :'$category', subcategory:'$subcategory'},
+    //    totalprice: {$sum:'$price' },
+    //    maxprice:{$max :'$price'},
+    //    products: {$push: '$$ROOT'}, 
+    //    count: { $count: { } },
+        
+    //    }
+      
+    //     }
+
+    //  { $match: { _id: 17 } },
+
+     
+    ]
+
+)
